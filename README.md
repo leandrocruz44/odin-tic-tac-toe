@@ -5,3 +5,5 @@ Favicon from https://freesvg.org/1527091757
 
 Image https://freesvg.org/simplified-crown
 Image https://freesvg.org/zeimusu-trefoil-knot
+
+URL https://leandrocruz44.github.io/odin-tic-tac-toe/
