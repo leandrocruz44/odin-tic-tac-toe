@@ -159,10 +159,10 @@ const begin = (() => {
     const playerOneFieldName = document.querySelector('#playerOneFieldName')
     const playerTwoFieldName = document.querySelector('#playerTwoFieldName')
     start.addEventListener('click', () => {
-        let nameX = document.getElementById('playerOne').value
-        let nameO = document.getElementById('playerTwo').value
-        const playerOne = player(nameX, 'playerOne')
-        const playerTwo = player(nameO, 'playerTwo')
+        const nameX = document.getElementById('playerOne')
+        const nameO = document.getElementById('playerTwo')
+        const playerOne = player(nameX.value, nameX.id)
+        const playerTwo = player(nameO.value, nameO.id)
         playerOneFieldName.innerText = playerOne.playerName
         playerTwoFieldName.innerText = playerTwo.playerName
         start.classList.replace('btn', 'hide')
